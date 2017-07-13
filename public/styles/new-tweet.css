@@ -1,0 +1,112 @@
+/*
+ * Styles for each new tweet
+ */
+
+ .container .new-tweet {
+    background-color: #EEEEEE;
+    border: 2px solid #00ff00;
+    border-radius: 4px;
+    padding: 15px;
+    overflow: auto;
+}
+
+ .container .new-tweet h2 {
+  border-bottom: 1px solid black;
+  margin: 0 0 10px;
+}
+
+ .container .new-tweet textarea {
+  width: 100%;
+}
+
+.container .new-tweet input {
+  float: left;
+
+}
+
+.counter {
+     float: right;
+     padding: 10px;
+     font-style: italic;
+     font-size: 2em;
+     line-height: 24px;
+     color: #0000ff;
+}
+
+.counter.over {
+    color: red;
+}
+
+.tweet-append-error {
+  padding: 0 7px;
+  line-height: 24px;
+  color: red;
+}
+
+.tweet {
+   margin: 20px 0;
+   border: 1px solid #d0d0d0;
+   border-radius: 5px;
+   overflow: auto;
+   background: #fff;
+   color: #194c57;
+   opacity: 0.7;
+   transition: ease all 0.3s;
+ }
+
+.tweet:hover {
+  opacity: 1;
+}
+
+.new-tweet__container header {
+  background: #eee;
+  overflow: auto;
+  padding: 10px 7px;
+}
+
+.new-tweet__container header img {
+  width: 60px;
+  height: 60px;
+  float: left;
+  border-radius: 5px;
+}
+
+.new-tweet__container h2 {
+   float: left;
+   padding: 2px 7px;
+   line-height: 28px;
+ }
+
+.new-tweet__container span {
+  float: right;
+  padding: 2px;
+  line-height: 28px;
+  vertical-align: bottom;
+  color: #818181;
+}
+
+.new-tweet__container p {
+  padding: 10px 15px;
+  word-wrap: break-word;
+}
+
+.new-tweet__container footer {
+  padding: 7px;
+  border-top: 1px solid #eee;
+  font-size: 0.9em;
+  overflow: auto;
+}
+
+.new-tweet__time-stamp {
+  float: left;
+}
+
+.new-tweet__icons {
+  float: right;
+  color: #19cbba;
+  display: none;
+}
+
+.new-tweet__icons.show {
+  display: initial;
+}
